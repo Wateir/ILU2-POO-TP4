@@ -21,10 +21,10 @@ public class Scenario {
 		Etal<Sanglier> etalSanglierAsterix = new Etal<>();
 		Etal<Poisson> etalPoisson = new Etal<>();
 
-		Sanglier sanglier1 = new Sanglier(2000, obelix);
-		Sanglier sanglier2 = new Sanglier(1500, obelix);
-		Sanglier sanglier3 = new Sanglier(1000, asterix);
-		Sanglier sanglier4 = new Sanglier(500, asterix);
+		Sanglier sanglier1 = new Sanglier(200, obelix);
+		Sanglier sanglier2 = new Sanglier(150, obelix);
+		Sanglier sanglier3 = new Sanglier(100, asterix);
+		Sanglier sanglier4 = new Sanglier(50, asterix);
 
 		Sanglier[] sangliersObelix = { sanglier1, sanglier2 };
 		Sanglier[] sangliersAsterix = { sanglier3, sanglier4 };
@@ -44,3 +44,4 @@ public class Scenario {
 	}
 
 }
+
